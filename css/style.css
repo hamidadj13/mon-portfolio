@@ -498,10 +498,11 @@ header
     margin-bottom: 2rem;
 }
 
-.portfolio .grid__item.hide 
+.portfolio .grid__item.hide
 {
     opacity: 0;
     max-width: 0;
+    max-height: 0;
     padding: 0;
     margin: 0;
     overflow: hidden;
@@ -579,17 +580,87 @@ header
     transition: all 1s ease;
 }
 
+
+#modal-1 .grid__item, #modal-2 .grid__item, #modal-4 .grid__item
+{
+    border: 1px solid #d4cfcf;
+    border-radius: 20px;
+    padding: 0 2.5rem;
+    margin: 2rem;
+    margin-bottom: 2rem;
+}
+
+.grid__full
+{
+    margin: 3rem 0;
+}
+
+.e5 .card__inner h1
+{
+    text-align: center;
+    font-size: 2rem;
+}
+
 @media screen and (max-width:749px) 
 {
     .portfolio a 
     {
         font-size: 1.4rem;
     }
+
+    .portfolio-filters
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio-filters .grid__item 
+    {
+        min-width: 90%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .portfolio .reals 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio .reals .grid__item
+    {
+        min-width: 90%;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+
+    .portfolio .reals .grid__item .card img
+    {
+        min-width: 100%;
+    }
+
+    .e5 .grid
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .e5 img
+    {
+        min-width: 100%;
+    }
+
+    .e5 .grid__item
+    {
+        min-width: 90%;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
 }
   
 @media screen and (min-width:750px) 
 {
-    .portfolio .grid__item 
+    .portfolio .grid__item
     {
         max-width: 30%;
     }
@@ -599,16 +670,57 @@ header
         max-width: 30%;
     }
 
+    .e5 .grid
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .e5 img
+    {
+        min-width: 100%;
+    }
+
+    .e5 .grid__item
+    {
+        max-width: 45%;
+    }
+
     .modal__content 
     {
         padding: 3rem;
     }
+
+    .modal .grid
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
     
     .modal .grid__item 
     {
-        max-width: 50%;
+        max-width: 46%;
+        padding: 0 1rem;
+    }
+
+    .modal .grid__item img 
+    {
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
+    .modal .grid__item i p 
+    {
+        text-align: center;
     }
     
+    #modal-1 .grid
+    {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .card 

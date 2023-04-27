@@ -70,27 +70,18 @@
         </header>
 
         <main>
-            <section id="portfolio" class="portfolio">
+            <section id="e5" class="e5">
                 <div class="container">
                     <div class="section-header">
-                        <h2 class="section-title">Portfolio</h2>
-                        <p>Voici ci-dessous mes réalisations</p>
+                        <h2 class="section-title">Mes modules E5</h2>
                     </div>
-                    <ul class="grid portfolio-filters list-unstyled">
-                        <li class="grid__item">
-                            <a href="#" class="active" data-filter="all">Tous les projets</a>
-                        </li>
-                        <li class="grid__item">
-                            <a href="#" data-filter="web">Développement web</a>
-                        </li>
-                        <li class="grid__item">
-                            <a href="#" data-filter="bur">Application bureau</a>
-                        </li>
-                    </ul>
 
-                    <div class="grid reals">
+                    <div class="grid ">
                         <div class="grid__item">
                             <div class="card" data-category="web">
+                                <div class="card__inner">
+                                    <h1 class="card__title"><b>Module 1: Client Léger</b></h1>
+                                </div>
                                 <img src="https://picsum.photos/600/400?random=1" loading="lazy" width="365" height="243" alt="projet de la ville" class="card__image">
                                 <div class="card__inner">
                                     <h3 class="card__title">Leboncoin de la M2L</h3>
@@ -149,7 +140,7 @@
                                                 <h3 style="text-align: center">Ajout d'annonces</h3>
                                                 <img src="images/ProjetLeboncoin/Interface depot d'annonce.png" alt=""><br><hr>
                                                 <p>
-                                                    Voici l'interface d'ajout d'une annonce. Ici, l'utilisateur pourra consulter ses annonces. 
+                                                    Voici l'interface d'ajout d'une'. Ici, l'utilisateur pourra consulter ses annonces. 
                                                     De plus, il dispose de trois boutons sur chaque annonce qui lui permet de voir le détail, modifier et supprimer une annonce.
                                                 </p> 
                                             </div>
@@ -204,85 +195,10 @@
                         </div>
 
                         <div class="grid__item">
-                            <div class="card" data-category="web">
-                                <img src="https://picsum.photos/600/400?random=2" loading="lazy" width="365" height="243" alt="projet de la ville" class="card__image">
-                                <div class="card__inner">
-                                    <h3 class="card__title">Gestion de dépenses</h3>
-                                    <p class="category">Développement Web</p>
-                                </div>
-                                <div class="card__overlay">
-                                    <a href="#" class="card__link" data-id="modal-2">+</a>
-                                </div>
-                            </div>
-
-                            <div class="modal" id="modal-2">
-                                <button class="modal__close">&times;</button>
-                                <div class="modal__content">
-                                    <div class="container">
-                                        <div class="grid">
-                                            <div class="grid__full" align="justify">
-                                                Le projet consiste en la mise en place de différentes dépenses q'un utilisateur fait.
-                                                Le site a été développé en <b>PHP</b> pour le coté serveur, <b>HTML, CSS et bootstrap</b> pour le coté client et <b>mySQL</b> pour la base de donnée. Il y a également eu du Javascript poour l'amélioration de l'expérience utilisateur.
-                                                Le site sera constitué d'un certain nombre de fonctionnalités qui seront détaillées ci-dessous.
-                                            </div>
-                                            <div class="grid__item" align="justify">
-                                                <h3 style="text-align: center">Inscription d'un utilisateur</h3>
-                                                <img src="images/ProjetGestionDépenses/Interface inscription.png" alt="Interface Inscription" height="100"><br><hr>
-                                                <p>
-                                                    Voici l'interface du formulaire d'inscription. L'utilisateur devra renseigner tous les champs de saisie avec des valeurs valides.
-                                                    Son compte sera créé une fois qu'on a vérifié que son adresse mail n'est pas encore utilisée pour créer un compte.
-                                                </p> 
-                                            </div>
-                                            <div class="grid__item" align="justify">
-                                                <h3 style="text-align: center">Connexion d'un utilisateur</h3>
-                                                <img src="images/ProjetGestionDépenses/Interface connexion.png" alt="Interface connexion"><br><hr>
-                                                <p>
-                                                    Voici l'interface du formulaire de connexion. L'utilisateur devra son adresse mail et son mot de passe avec des valeurs valides.
-                                                    Une fois soumis on vérifie si cet utilisateur existe. Si oui, il est connecté. Dans le cas contraire, on l'informe que son login ou son mot de passe est incorrect.
-                                                </p> 
-                                            </div>
-                                            
-                                            <div class="grid__item" align="justify">
-                                                <h3 style="text-align: center">Accueil sans connexion</h3>
-                                                <img src="images/ProjetGestionDépenses/Interface accueil.png" alt=""><br><hr>
-                                                <p>
-                                                    Voici l'interface de la page d'accueil. Ici, l'utilisateur ne peut que consulter les dépenses disponibles sur le site. Pour faire autre chose il faudra se connecter.
-                                                    Si l'utilisateur n'a pas encore un compte, il pourra s'inscrire via un formulaire.
-                                                </p> 
-                                            </div>
-                                            <div class="grid__item" align="justify">
-                                                <h3 style="text-align: center">Accueil avec connexion</h3>
-                                                <img src="images/ProjetGestionDépenses/Interface accueil.png" alt=""><br><hr>
-                                                <p>
-                                                    Une fois connecté, l'utilisateur a accès à la page d'accueil mais cette fois ci avec une barre de navigation personnalisé.
-                                                    Cette barre lui permet d'utiliser plusieurs fonctonnalités tels que l'ajout d'annonces sur le site, la consultation de ses annonces.
-                                                </p> 
-                                            </div>
-
-                                            <div class="grid__item" align="justify">
-                                                <h3 style="text-align: center">Ajout de dépenses</h3>
-                                                <img src="images/ProjetGestionDépenses/Interface ajout de dépenses.png" alt=""><br><hr>
-                                                <p>
-                                                    Voici l'interface d'ajout d'une dépense. Ici, l'utilisateur dispose d'un formulaire pour ajouter une dépense. 
-                                                    Dès qu'il entre des informations valides, sa dépense sera enregistrée et l'utilisateur pourra ls consulter depiuis l'onglet <b>"Mes dépenses"</b>.
-                                                </p> 
-                                            </div>
-                                            <div class="grid__item" align="justify">
-                                                <h3 style="text-align: center">Mes dépenses</h3>
-                                                <img src="images/ProjetGestionDépenses/Interface mes dépenses.png" alt=""><br><hr>
-                                                <p>
-                                                    Voici l'interface de consultation de ses annonces. Ici, l'utilisateur pourra consulter ses annonces. 
-                                                    De plus, il dispose de deux boutons sur chaque dépense qui lui permet de voir  modifier et supprimer une dépense.
-                                                </p> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="grid__item">
                             <div class="card" data-category="bur">
+                                <div class="card__inner">
+                                    <h1 class="card__title"><b>Module 2: Client Lourd</b></h1>
+                                </div>
                                 <img src="https://picsum.photos/600/400?random=3" loading="lazy" width="365" height="243" alt="projet de la ville" class="card__image">
                                 <div class="card__inner">
                                     <h3 class="card__title">Gestion Matériel</h3>
@@ -373,197 +289,6 @@
                                                 <i><p>Interface générale de l'application </p></i>
 
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="grid__item">
-                            <div class="card" data-category="web">
-                                <img src="https://picsum.photos/600/400?random=4" loading="lazy" width="365" height="243" alt="projet de la ville" class="card__image">
-                                <div class="card__inner">
-                                    <h3 class="card__title">Gestions des Pokémons</h3>
-                                    <p class="category">Développement Web</p>
-                                </div>
-                                <div class="card__overlay">
-                                    <a href="#" class="card__link" data-id="modal-4">+</a>
-                                </div>
-                            </div>
-
-                            <div class="modal" id="modal-4">
-                                <button class="modal__close">&times;</button>
-                                <div class="modal__content">
-                                    <div class="container">
-                                        <div class="grid">
-                                            <div class="grid__full" align="justify">
-                                                Le projet consiste en la réalisation d'un site web pour la gestion des pokémons.
-                                                Le site a été développé avec le framework PHP <b>Symfony</b>, avec utilisation du moteur d'affichage<b>Twig</b> le tout combiné au <b>bootstrap</b> pour le style et <b>mySQL</b> pour la base de donnée. Il y a également eu du Javascript poour l'amélioration de l'expérience utilisateur.
-                                                Le site sera constitué d'un certain nombre de fonctionnalités qui seront détaillées ci-dessous.
-                                            </div>
-                                            <div class="grid__item" align="justify">
-                                                <h3 style="text-align: center">Inscription d'un utilisateur</h3>
-                                                <img src="images/ProjetGestPokemon/Interface Inscription.png" alt="Interface Inscription" height="100"><br><hr>
-                                                <p>
-                                                    Voici l'interface du formulaire d'inscription. L'utilisateur devra renseigner tous les champs de saisie avec des valeurs valides.
-                                                    Son compte sera créé une fois qu'on a vérifié que son adresse mail n'est pas encore utilisée pour créer un compte.
-                                                </p> 
-                                            </div>
-                                            <div class="grid__item" align="justify">
-                                                <h3 style="text-align: center">Connexion d'un utilisateur</h3>
-                                                <img src="images/ProjetGestPokemon/Interface connexion.png" alt="Interface connexion"><br><hr>
-                                                <p>
-                                                    Voici l'interface du formulaire de connexion. L'utilisateur devra son adresse mail et son mot de passe avec des valeurs valides.
-                                                    Une fois soumis on vérifie si cet utilisateur existe. Si oui, il est connecté. Dans le cas contraire, on l'informe que son login ou son mot de passe est incorrect.
-                                                </p> 
-                                            </div>
-                                            <div class="grid__item" align="justify">
-                                                <h3 style="text-align: center">Accueil</h3>
-                                                <img src="images/ProjetGestPokemon/Interface Liste des pokémons.png" alt=""><br><hr>
-                                                <p>
-                                                    Une fois connecté, l'utilisateur a accès à la page d'accueil avec une barre de navigation personnalisé.  Ici, l'utilisateur pourra consulter ses annonces.
-                                                    Cette barre lui permet d'utiliser plusieurs fonctonnalités tels que l'ajout de pokémons sur le site, ajouter des utilisateurs.
-                                                </p> 
-                                            </div>
-
-                                            <div class="grid__item" align="justify">
-                                                <h3 style="text-align: center">Ajout de pokémon</h3>
-                                                <img src="images/ProjetGestPokemon/Interface ajout pokemon.png" alt=""><br><hr>
-                                                <p>
-                                                    Voici l'interface d'ajout d'un pokemon. Il faudra entrere toutes les valeurs dans les champs de saisie pour envoyer le formulaire.
-                                                </p> 
-                                            </div>
-                                            <div class="grid__item" align="justify">
-                                                <h3 style="text-align: center">Types</h3>
-                                                <img src="images/ProjetGestPokemon/Interface Liste des Types.png" alt=""><br><hr>
-                                                <p>
-                                                    Voici l'interface de consultation des types. Ici, l'utilisateur pourra consulter les types disponibles. 
-                                                    De plus, il dispose de trois boutons sur chaque type qui lui permet de voir le détail, modifier et supprimer un type de pokémon.
-                                                </p> 
-                                            </div>
-                                            <div class="grid__item" align="justify">
-                                                <h3 style="text-align: center">Schéma de la base de donnée</h3>
-                                                <img src="images/ProjetGestPokemon/Schéma de la base de donnée.png" alt=""><br><hr>
-                                                <p>
-                                                    Voici le schéma de la base de donée avec les relations entre les tables. 
-                                                </p> 
-                                            </div>
-                                            <div class="grid__full" align="justify">
-                                                Vous pouvez accéder au code source sur GitHub via <a href="https://github.com/hamidadj13/pokemon">ce lien</a>
-                                            </div>
-                                            
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="grid__item">
-                            <div class="card" data-category="bur">
-                                <img src="https://picsum.photos/600/400?random=5" loading="lazy" width="365" height="243" alt="projet de la ville" class="card__image">
-                                <div class="card__inner">
-                                    <h3 class="card__title">Calculatrice C#</h3>
-                                    <p class="category">Application bureau</p>
-                                </div>
-                                <div class="card__overlay">
-                                    <a href="#" class="card__link" data-id="modal-5">+</a>
-                                </div>
-                            </div>
-
-                            <div class="modal" id="modal-5">
-                                <button class="modal__close">&times;</button>
-                                <div class="modal__content">
-                                    <div class="container">
-                                        <div class="grid">
-                                            <div class="grid__item">
-                                                Il s'agit d'une application C# qui a pour interface une calculatrice qui fait plusieurs opérations avec gestion des erreurs. On peut distinguer entre autre :
-                                                <ul>
-                                                    <li>Addition</li>
-                                                    <li>Soustraction</li>
-                                                    <li>Multiplication</li>
-                                                    <li>Division</li>
-                                                    <li>Racine carréee</li>
-                                                    <li>Sinus d'un nombre</li>
-                                                    <li>Cosinus d'un nombre</li>
-                                                    <li>Tangente d'un nombre</li>
-                                                </ul>
-                                            </div>
-                                            <div class="grid__item">
-                                                <img src="images/ProjetCalculatrice/Interface de l'application.png" alt="Interface de l'application">
-                                                <p>Interface de l'application de calculatrice</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="grid__item">
-                            <div class="card" data-category="web">
-                                <img src="https://picsum.photos/600/400?random=6" loading="lazy" width="365" height="243" alt="projet de la ville" class="card__image">
-                                <div class="card__inner">
-                                    <h3 class="card__title">Gestion des Étudiants</h3>
-                                    <p class="category">Développement Web</p>
-                                </div>
-                                <div class="card__overlay">
-                                    <a href="#" class="card__link" data-id="modal-6">+</a>
-                                </div>
-                            </div>
-
-                            <div class="modal" id="modal-6">
-                                <button class="modal__close">&times;</button>
-                                <div class="modal__content">
-                                    <div class="container">
-                                        <div class="grid">
-                                            <div class="grid__full" align="justify">
-                                                Le projet consiste en la réalisation d'un site web de  gestion desétudiants d'une université.
-                                                Le site a été développé en <b>PHP</b> pour le coté serveur, <b>HTML, CSS et Javascript</b> pour le coté client et <b>mySQL</b> pour la base de donnée.  
-                                            </div>
-                                            
-                                            <div class="grid__item" align="justify">
-                                                <h3 style="text-align: center">Accueil</h3>
-                                                <img src="images/Projet GestStudent/Interface Accueil.png" alt=""><br><hr>
-                                                <p>
-                                                    Voici l'interface de la page d'accueil. Il y figure un lien permettant d'accéder à la page de la liste des étudiants.
-                                                </p> 
-                                            </div>
-                                            <div class="grid__item" align="justify">
-                                                <h3 style="text-align: center">Liste des étudiants</h3>
-                                                <img src="images/Projet GestStudent/Interface Liste des étudiants.png" alt=""><br><hr>
-                                                <p>
-                                                    Il s'agit de la page sur laquelle se trouve la liste des étudiants. 
-                                                    Il y a sur chaque ligne d'étudiant un bouton permettant de modifier les informations de ce dernier ou de le supprimer.
-                                                </p> 
-                                            </div>
-
-                                            <div class="grid__item" align="justify">
-                                                <h3 style="text-align: center">Ajout d'étudiant</h3>
-                                                <img src="images/Projet GestStudent/Interface Enregistrement.png" alt=""><br><hr>
-                                                <p>
-                                                    Voici l'interface d'ajout d'un étudiant. Ici, l'utilisateur pourra ajouter un nouvel étudiant en remplissant tous les champs de saisie avec des valeurs valides. 
-                                                </p> 
-                                            </div>
-                                            <div class="grid__item" align="justify">
-                                                <h3 style="text-align: center">Filtrage d'étudiant</h3>
-                                                <img src="images/Projet GestStudent/Interface filtre.png" alt=""><br><hr>
-                                                <p>
-                                                    Sur la page affichant la liste des étudiants, on peut voir un champ de filtrage permettant de filtrere les étudiants selon leur filière d'orientation. Ici, l'utilisateur pourra consulter toutes les informations d'une annonce. 
-                                                </p> 
-                                            </div>
-                                            <div class="grid__item" align="justify">
-                                                <h3 style="text-align: center">Modification d'infos étudiant</h3>
-                                                <img src="images/Projet GestStudent/Interface  Modification Etudiant.png" alt=""><br><hr>
-                                                <p>
-                                                    Voici l'interface au niveau duquel on peut modifier les informations personnelles d'un étudiant.
-                                                    Ce formaulaire renvoie un formulaire pré-rempli avec les informations actuelles de l'utilisateur et enregistre les modifications qu'on peut aura apporté en cliquant sur le bouton "Modifier". 
-                                                </p> 
-                                            </div>
-                                            </div>
-                                            <div class="grid__full" align="justify">
-                                                Vous pouvez accéder au code source via <a href="https://github.com/hamidadj13/gestStudent">ce lien</a>
-                                            </div>
-
                                         </div>
                                     </div>
                                 </div>
