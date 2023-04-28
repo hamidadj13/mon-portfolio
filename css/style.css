@@ -828,6 +828,32 @@ form .btn:hover
 }
 
 /*---------------------------------------*/
+.aff__cv
+{
+    margin: 4rem 0;
+}
+
+.aff__cv img
+{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+.telecharge__cv
+{
+    display: block;
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 5rem;
+}
+.telecharge__cv a
+{
+    color: blue;
+    text-decoration: underline blue;
+}
+
+/*---------------------------------------*/
 
 footer 
 {
