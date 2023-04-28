@@ -264,6 +264,15 @@ header
     transform: translateY(8px);
 }
 
+@media screen and (max-width:450px)
+{
+    .divlogo .logo
+    {
+        display: none;
+        max-width: 0;
+    }
+}
+
 @media screen and (max-width:749px) 
 {
     nav 
