@@ -838,6 +838,8 @@ form .btn:hover
     display: block;
     margin: auto;
     width: 70%;
+    border: 1px solid #d4cfcf;
+    border-radius: 20px;
 }
 
 .telecharge__cv
