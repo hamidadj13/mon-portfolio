@@ -904,7 +904,7 @@ form .btn:hover
     font-size: 2rem;
 }
 
-.veilles nav ul li a
+.veilles ul li a
 {
     color: blue;
     text-decoration: underline;
